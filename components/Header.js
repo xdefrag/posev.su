@@ -5,8 +5,10 @@ const Header = () => (
   <img src={imgUrl}/>
   <style jsx>{`
       img {
-        padding: 2em;
-        width: 24em;
+        padding: 2em 0;
+        width: 100%;
+        max-width: 24em;
+        min-width: 10em;
       }
     `}
   </style>

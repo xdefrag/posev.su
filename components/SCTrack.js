@@ -1,4 +1,5 @@
 const SCTrack = (props) => (
+  <div>
   <iframe
     width="40%"
     height="166"
@@ -7,6 +8,15 @@ const SCTrack = (props) => (
     allow="autoplay"
     src={props.src}
   ></iframe>
+  <style jsx>{`
+    iframe {
+      width: 100%;
+      max-width: 40em;
+      min-width: 20em;
+    }
+    `}
+  </style>
+  </div>
 )
 
 export default SCTrack
