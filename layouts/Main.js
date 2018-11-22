@@ -20,7 +20,7 @@ const Main = (props) => (
     />
 
   <title>POSEV</title>
-  <meta charset="utf8"/>
+  <meta charSet="utf8"/>
   <meta name="description" content="Siberian electronic music label"/>
   <meta name="keywords" content="siberia,music,techno,electronic,industrial,spiritual,cult,dragstor,otres,grey infantry,suspiria,prizraki katakomb,cum prison,victory flowers"/>
   <meta name="author" content="Stanislaw Mnizhek"/>
