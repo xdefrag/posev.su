@@ -93,6 +93,16 @@ const releases = [
 
 const releasesTBD = [
   {
+    artist: "Oneiroids",
+    title: "TBD",
+    year: "2019",
+  },
+  {
+    artist: "Banditsky",
+    title: "TBD",
+    year: "2019",
+  },
+  {
     artist: "Victory Flowers",
     title: "Victory Flowers",
     year: "2019",
