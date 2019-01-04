@@ -103,7 +103,7 @@ const releasesTBD = [
     year: "2019",
   },
   {
-    artist: "Banditsky",
+    artist: "Otres",
     title: "TBD",
     year: "2019",
   },
