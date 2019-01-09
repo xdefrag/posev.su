@@ -13,6 +13,7 @@ const Background = () => (
         left: 0;
         position: fixed;
         z-index: -9000;
+        opacity: .6;
       }
       `}</style>
   </div>
