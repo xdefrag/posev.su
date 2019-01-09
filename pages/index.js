@@ -3,6 +3,7 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import SCTrack from '../components/SCTrack'
 import MailChimp from '../components/MailChimp'
+import Background from '../components/Background.js'
 
 const releases = [
   {
@@ -121,6 +122,7 @@ const releasesTBD = [
 
 export default () => (
   <div>
+  <Background />
   <Main>
   <Header />
   <div className="track">
