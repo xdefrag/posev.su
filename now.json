@@ -1,5 +1,7 @@
 {
   "version": 2,
+  "name": "posev.su",
+  "alias": "posev.su",
   "builds": [
     { "src": "package.json", "use": "@now/static-build" }
   ]
