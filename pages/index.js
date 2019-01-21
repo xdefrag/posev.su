@@ -126,7 +126,7 @@ export default () => (
   <Main>
   <Header />
   <div className="track">
-    <SCTrack src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/512707608&color=%231a1c2d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true" />
+    <SCTrack src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/562533264&color=%23b241ce&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true" />
   </div>
 
   <div className="released">
