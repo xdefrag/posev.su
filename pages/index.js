@@ -127,6 +127,11 @@ export default () => (
   <Background />
   <Main>
   <Header />
+
+  <div className="video">
+    <iframe width="45%" height="400" src="https://www.youtube.com/embed/GrQBSEh8pRY" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullscreen></iframe>
+  </div>
+
   <div className="track">
     <SCTrack src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/730832250&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true" />
   </div>
@@ -147,7 +152,7 @@ export default () => (
   <MailChimp />
 
   <style jsx>{`
-    .released, .track, .tbd {
+    .released, .track, .tbd, .video {
       margin-bottom: 2em;
     }
     `}
