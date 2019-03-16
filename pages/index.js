@@ -90,14 +90,16 @@ const releases = [
     year: "2017",
     bandcamp: "https://posev.bandcamp.com/album/grey-infantry-dragstor",
   },
+  {
+    catalogID: "PSV11",
+    artist: "Fetch",
+    title: "Iron Trees & Careless Gods",
+    year: "2019",
+    bandcamp: "https://posev.bandcamp.com/album/iron-trees-careless-gods",
+  },
 ]
 
 const releasesTBD = [
-  {
-    artist: "Fetch",
-    title: "TBD",
-    year: "2019",
-  },
   {
     artist: "Oneiroids",
     title: "TBD",
@@ -126,11 +128,11 @@ export default () => (
   <Main>
   <Header />
   <div className="track">
-    <SCTrack src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/562533264&color=%23b241ce&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true" />
+    <SCTrack src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/730832250&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true" />
   </div>
 
   <div className="released">
-  {releases.map((r, i) => (
+  {releases.reverse().map((r, i) => (
     <p key={i.toString()}><a href={r.bandcamp} target="_blank">{r.catalogID} | {r.artist} - {r.title} ({r.year})</a></p>
   ))}
   </div>
