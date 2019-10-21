@@ -103,22 +103,12 @@ const releasesTBD = [
   {
     artist: "Oneiroids",
     title: "TBD",
-    year: "2019",
+    year: "TBD",
   },
   {
     artist: "Otres",
     title: "TBD",
-    year: "2019",
-  },
-  {
-    artist: "Victory Flowers",
-    title: "Victory Flowers",
-    year: "2019",
-  },
-  {
-    artist: "Dragstor",
-    title: "II: Old Gods, Old Masters",
-    year: "2019",
+    year: "TBD",
   },
 ]
 
