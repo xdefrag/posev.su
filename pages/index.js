@@ -97,20 +97,16 @@ const releases = [
     year: "2019",
     bandcamp: "https://posev.bandcamp.com/album/iron-trees-careless-gods",
   },
+  {
+    catalogID: "PSVC3",
+    artist: "VA",
+    title: "POSEV III",
+    year: "2020",
+    bandcamp: "http://posev.bandcamp.com/album/posev-3",
+  },
 ]
 
-const releasesTBD = [
-  {
-    artist: "Oneiroids",
-    title: "TBD",
-    year: "TBD",
-  },
-  {
-    artist: "Otres",
-    title: "TBD",
-    year: "TBD",
-  },
-]
+const releasesTBD = []
 
 export default () => (
   <div>
@@ -118,13 +114,7 @@ export default () => (
   <Main>
   <Header />
 
-  <div className="video">
-    <iframe width="45%" height="400" src="https://www.youtube.com/embed/GrQBSEh8pRY" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullscreen></iframe>
-  </div>
-
-  <div className="track">
-    <SCTrack src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/730832250&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true" />
-  </div>
+  <iframe className="bc" src="https://bandcamp.com/EmbeddedPlayer/album=2760474398/size=large/bgcol=333333/linkcol=9a64ff/minimal=true/transparent=true/" seamless><a href="http://posev.bandcamp.com/album/posev-3">POSEV 3 by POSEV</a></iframe>
 
   <div className="released">
   {releases.reverse().map((r, i) => (
@@ -144,6 +134,12 @@ export default () => (
   <style jsx>{`
     .released, .track, .tbd, .video {
       margin-bottom: 2em;
+    }
+
+    .bc {
+      border: 0;
+      width: 500px;
+      height: 500px;
     }
     `}
   </style>
